@@ -1,8 +1,28 @@
 aid: everyrealm
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/everyrealm.png
 name: Everyrealm
-description: Everyrealm is a company surfaced as a portfolio company of a16z, lightspeed-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Everyrealm Inc. is a Web3 and metaverse company building virtual communities inside in-game
+  worlds, positioned at the intersection of gaming, entertainment, and blockchain technology.
+  Under the banner "Connecting what matters," Everyrealm develops immersive, gamified virtual
+  worlds and experiences, partners with gaming platforms, and invests across the broader metaverse
+  and digital-real-estate ecosystem. The company has raised venture funding from Lightspeed Venture
+  Partners, Andreessen Horowitz (a16z), Coinbase Ventures, Brevan Howard, Hashed, and other prominent
+  investors. Everyrealm is a consumer- and community-facing operator rather than an API-first
+  developer platform; as of this profile it publishes no public developer portal, OpenAPI definitions,
+  SDKs, or programmatic API surface. This entry was added to the API Evangelist network as a company
+  profile and has been enriched with public identity, legal, and domain-security signals.
 url: https://raw.githubusercontent.com/api-evangelist/everyrealm/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,12 +33,37 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Metaverse
+- Web3
+- Gaming
+- Virtual Worlds
+- Blockchain
+- Virtual Real Estate
+- Community
 apis: []
+common:
+- type: DomainSecurity
+  url: security/everyrealm-domain-security.yml
+- type: Website
+  url: https://everyrealm.com
+- type: About
+  url: https://everyrealm.com/about-us
+- type: Careers
+  url: https://everyrealm.com/careers
+- type: TermsOfService
+  url: https://everyrealm.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://everyrealm.com/privacy-policy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
